@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/new/2WSsP_2InputMux_32.vhd" \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/new/2WSspImem.vhd" \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/new/2WSspInstrScheduler.vhd" \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/new/2WSspProgramCounter.vhd" \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/imports/new/CLA32Adder.vhd" \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/new/TestScheduler.vhd" \
+"../../../../TwoIssueStaticScheduler.srcs/sources_1/imports/sources_1/new/TestBenchForTestScheduler.vhd" \
+
+# Do not sort compile order
+nosort
